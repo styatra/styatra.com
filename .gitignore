@@ -1,3 +1,10 @@
 .direnv/
 result*
 .DS_Store
+
+# Obsidian folders
+.obsidian/
+.trash/
+
+# Nix output
+result/
