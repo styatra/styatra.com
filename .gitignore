@@ -8,3 +8,6 @@ result*
 
 # Nix output
 result/
+
+# Kiln output
+public/

@@ -3,6 +3,7 @@
 INPUT_DIR="./styatra.com/"
 SITE_NAME="styatra"
 DEPLOYMENT_URL="https://www.styatra.com"
+THEME="rose-pine"
 
 # Exit immediately if any command fails
 set -e
@@ -33,6 +34,7 @@ echo "Building site..."
   --input "$INPUT_DIR" \
   --output ./public \
   --name "$SITE_NAME" \
+  --theme $THEME \
   --url "$DEPLOYMENT_URL"
 
 # Note: CF_PAGES_URL is a magic variable provided automatically by Cloudflare
