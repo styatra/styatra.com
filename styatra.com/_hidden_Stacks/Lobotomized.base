@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.inFolder("Anime")
+    - stacks.contains("lobotomized")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - stack_description
