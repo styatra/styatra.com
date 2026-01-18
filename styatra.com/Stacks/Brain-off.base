@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("Anime")
+    - stacks.contains("brain-off")
+properties:
+  file.name:
+    displayName: Name
+  note.stack_description:
+    displayName: Synopsis
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - stack_description
+    sort:
+      - property: mal_score
+        direction: ASC
+    image: note.cover_image

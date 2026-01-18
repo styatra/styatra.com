@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("Anime")
+    - vote.containsAny("Mixed", "Approved", "Not approved")
+properties:
+  file.name:
+    displayName: Name
+  note.stack_description:
+    displayName: Synopsis
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: vote
+      direction: ASC
+    order:
+      - file.name
+      - stack_description

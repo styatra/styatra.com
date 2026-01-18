@@ -7,6 +7,7 @@ stacks:
 vote_approved: false
 vote_notApproved: false
 vote_mixed: false
+overall_score:
 ---
 # ANIME_NAME
 
@@ -20,6 +21,7 @@ _Here a description of the overall verdict. Max 200 words._
 ## How to watch
 
 _If the anime is difficult to follow because it has tons of different series/films etc. add this section explaining how to watch the anime._
+
 ## Related articles
 
 _Here a list of review / aritcles etc._

@@ -3,7 +3,9 @@ name: ANIME_NAME Season 1 Review
 description: Example
 ---
 # ANIME_NAME Season 1 Review
-## 
+
+_No structure here. Just try to create a list of talking points and try to explain your reasoning._
+
 ## Comments
 
 <script src="https://giscus.app/client.js"
